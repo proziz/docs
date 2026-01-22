@@ -3,9 +3,6 @@
   "info": {
     "title": "Rotector API",
     "description": "An API that gets data from Rotector regarding condo/weird players on Roblox",
-    "license": {
-      "name": "MIT"
-    },
     "version": "1.0.3"
   },
   "servers": [
@@ -28,8 +25,7 @@
             "in": "query",
             "description": "The user ID of the person to lookup",
             "schema": {
-              "type": "integer",
-              "format": "int32"
+              "type": "integer"
             }
           }
         ],
