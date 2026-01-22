@@ -35,13 +35,13 @@
         ],
         "responses": {
           "200": {
-            "description": "Plant response",
+            "description": "Single user lookup",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/singleLookup"
+                    "$ref": "#/components/schemas/lookup"
                   }
                 }
               }
@@ -154,7 +154,7 @@
   },
   "components": {
     "schemas": {
-      "Plant": {
+      "lookup": {
         "required": [
           "name"
         ],
